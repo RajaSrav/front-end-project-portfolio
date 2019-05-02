@@ -1,0 +1,123 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  border-bottom: 3px solid #000fff;
+  margin: 8px;
+}
+
+.long-img {
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+}
+
+.img {
+  width: 93%;
+  height: 433px;
+  border: 3px solid #ddd;
+  box-shadow: 3px 3px 3px #ddd;
+  border-radius: 33px 33px 33px 33px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards {
+  width: 30%;
+  margin: 3px;
+  border: 3px solid #ddd;
+  box-shadow: 3px 3px 3px #ddd;
+  text-align: center;
+  border-radius: 33px 33px 33px 33px;
+}
+
+.logo {
+  width: 103px;
+  height: 103px;
+}
+
+.cards-img {
+  width: 93%;
+  height: 300px;
+  margin: 9px;
+  border-radius: 33px 33px 33px 33px;
+}
+
+.foot {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  padding-top: 13px;
+}
+/* --------------Mobile view --------------- */
+@media screen and (max-width: 640px) {
+  .body {
+    background-color: #ddd;
+  }
+
+  .cards {
+    width: 93%;
+    margin: 3px;
+    border: 3px solid #fff;
+    box-shadow: 3px 3px 3px #fff;
+    text-align: center;
+    border-radius: 33px 33px 33px 33px;
+  }
+
+  .img {
+    width: 93%;
+    height: 233px;
+    border: 3px solid #fff;
+    box-shadow: 3px 3px 3px #fff;
+    border-radius: 33px 33px 33px 33px;
+  }
+
+  .header {
+    font-size: 33px;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo {
+    border: 3px solid #ddd;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius: 33px 33px 33px 33px;
+  }
+
+  .content {
+    font-size: 18px;
+    font-style: italic;
+    color: #000;
+  }
+}
+/* ----------------- Tablete view -------------------- */
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+  .cards {
+    width: 46%;
+  }
+
+  .content {
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: normal;
+  }
+}
+/* ---------Desktop view -------------------------- */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .content {
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .nav {
+    text-align: right;
+  }
+}
